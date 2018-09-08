@@ -8,3 +8,47 @@ white: #E8E8E8
 
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Megrim|Open+Sans:300');
+
+body {
+  background: #4F345A;
+}
+
+h1 {
+  margin-top: 6%;
+  font-family: 'Megrim', cursive;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #80A4ED;
+}
+
+.info-box {
+  box-sizing: border-box;
+  display: block;
+  max-width: 768px;
+  padding: 20px 30px;
+  margin: 0 auto 1rem;
+  border: solid 2px #80A4ED;
+  font-weight: 300;
+  text-align: center;
+  color: #E8E8E8;
+}
+
+.info-box #month,
+.info-box #day,
+.info-box #year {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.time {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
